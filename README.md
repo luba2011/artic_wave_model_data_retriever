@@ -1,5 +1,7 @@
 ## Setting Up the Project
-
+The folder `notebooks` has to jupyter notebooks:
+1. `Retrieve-data-Marine-Copernicus.ipynb`: To download and process the required data.
+2. `File_creation.ipynb`: To process and create one file per chosen variable.
 ### Prerequisites:
 - Python 3.x
 - Virtual environment
