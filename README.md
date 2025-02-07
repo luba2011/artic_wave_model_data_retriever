@@ -10,7 +10,7 @@ The folder `notebooks` has to jupyter notebooks:
 ### Installation:
 1. Open cmd.
 2. Navigate to the directory where you want the store the repository. --> cd path/to/your/directory.
-3. Clone the repository: git clone https://github.com/luba2011/artic_wave_model_data_retriever.git
+3. Clone the repository: git clone https://gitlab.com/corpowerocean/commercial_studies/arctic-ocean-wave-hindcast-data_retriever.git
 4. Create a virtual environment in the root directory, activate it and install the packages in `requirements.txt`
    - python -m venv your_venv_name
    - pip install -r requirements.txt
@@ -20,13 +20,14 @@ The folder `notebooks` has to jupyter notebooks:
 COPERNICUS_USERNAME="your_username"
 
 COPERNICUS_PASSWORD="your_password"
+
 6. Create a folder structure for storing the data as follows:
 - Create a folder named `data` in the project root directory.
 - Inside the `data` folder, create the following subfolders:
-   - `raw_data`: This folder will contain the original, unprocessed datasets. Download a file of any day from https://data.marine.copernicus.eu/product/ARCTIC_MULTIYEAR_WAV_002_013/files?subdataset=cmems_mod_arc_wav_my_3km_PT1H-i_202012 and add in this folder.
+   - `raw_data`: This folder will contain one of the original, unprocessed datasets. Download a file of any day from https://data.marine.copernicus.eu/product/ARCTIC_MULTIYEAR_WAV_002_013/files?subdataset=cmems_mod_arc_wav_my_3km_PT1H-i_202012 and add in this folder.
    - `filtered_data`: This folder will store the processed and cleaned datasets.
 7. In the notebooks change the root of the project:
 os.chdir(r"path/to/your/directory")
-8. Run the notebooks and the required files will be saved in the folder `filtered_data`
+8. Run the notebook: `Retrieve-data-Marine-Copernicus.ipynb` and the required files will be saved in the folder `filtered_data`
 
 
