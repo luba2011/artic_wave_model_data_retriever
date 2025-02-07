@@ -10,7 +10,7 @@ The folder `notebooks` has to jupyter notebooks:
 ### Installation:
 1. Open cmd.
 2. Navigate to the directory where you want the store the repository. --> cd path/to/your/directory.
-3. Clone the repository: git clone https://gitlab.com/corpowerocean/commercial_studies/arctic-ocean-wave-hindcast-data_retriever.git
+3. Clone the repository: git clone https://github.com/luba2011/artic_wave_model_data_retriever.git
 4. Create a virtual environment in the root directory, activate it and install the packages in `requirements.txt`
    - python -m venv your_venv_name
    - pip install -r requirements.txt
